@@ -1,0 +1,200 @@
+
+.inputChercher{   
+width: 40%; 
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+background-color: transparent;
+padding: 8px 20px;
+color: #000000;
+border: 2px solid  #000000;
+transition: all 0.5s;
+border-radius: 5px;
+}
+
+.inputChercher::placeholder {
+color:  #e21184;
+font-size: 12px;
+font-weight: 200;
+}
+
+.inputChercher:focus {
+background-color: #ecafd1;
+}
+
+.btnNew{
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 8px 20px;
+    color: #e21184;
+    border: 2px solid #e21184;
+    margin-left: -40px;;
+
+}
+
+.btnNew:hover{
+   color:black;
+}
+.primary-button .fa-plus-square{
+    font-size: 34px;
+    display: inline-block;
+    color:  #e21184;
+    transition: all 0.5s;
+}
+.primary-button .fa-plus-square:hover{
+    color: #d3aac0;
+}
+
+.titlepg{
+ margin-bottom:80px;
+text-align: center;
+height: 40px;
+}
+.titlepg h1{
+margin: 100px;
+padding: 5px;
+font-size: 32px;
+color:#fff;
+background-color: black;
+border-radius: 7px;
+cursor:pointer;
+}
+.titlepg h1:hover{
+    color:#e21184;
+}
+
+.MyDG{
+width: 100%;
+}
+.MyDG tr td, .MyDG tr th{
+border-bottom:1px solid rgb(139, 135, 135) ;
+padding: 5px 0;
+text-align: left;
+}
+.MyDG th{text-align: center;}
+.MyDG img{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.fa-edit{
+color:green;
+font-weight: bold;
+font-size: 20px;
+margin-left: 10px;
+}
+.fa-trash-alt{
+color:red;
+font-weight: bold;
+font-size: 20px;
+margin-right: 10px;
+}
+
+td img{
+justify-self: center;
+}
+
+tbody tr:nth-child(2n+1) {
+background-color: rgb(177, 210, 241);
+}
+.componentFRMC{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    }
+    .componentFRMC *{
+    margin: 2px 7px;
+    }
+    .componentFRMC input[type='text'], .componentFRMC select{
+    border: 1px solid #e21184;
+    display: block;
+    width: 90%;
+    height: 35px;
+    } 
+    .componentFRMC label, .componentFRMC legend{
+    color : #e21184;
+    font-weight: bold;
+    }
+    .componentFRMC input[type='submit'], .componentFRMC input[type='Reset']{
+    background-color : #e21184;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.877);
+    border-radius: 5px;
+    width: 160px;
+    }
+    
+    .componentFRMC input[type='Reset']{
+    background-color : #e21184;
+    }
+    
+    .componentFRMC select option
+    {
+    box-shadow: 0 0 10px 100px #e21184 inset;
+    display: inline-block;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #e21184;
+    background-color:  rgba(170, 218, 180, 0.801);
+    
+    }
+    .componentFRMC fieldset{
+    margin:5px;
+    padding: 5px;
+    border:1px dashed  #1882A8 ;
+    width: 95%;
+    }
+    .div_button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    }
+    .div_button #btnAdd{
+    margin-left: 5px;
+    }
+    .div_button #btnVider{
+    margin-left: 25px;
+    }
+      .button{
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: transparent;
+        padding: 8px 20px;
+        color: #e21184;
+        border: 2px solid #e21184;
+        }
+        .primary-button .button:hover{
+            color:black;
+        }
+     .btnchercher:hover{
+      color: #fff;
+      background-color:black;
+       }
+
+
+
+    .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        margin: 4px;
+      }
+      
+      .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+        border: 1px solid #4CAF50;
+      }
+    

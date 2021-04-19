@@ -1,0 +1,115 @@
+/*animation test lumiere*/
+.infos {
+background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-size: 2vw;
+font-family: "Source Sans Pro", sans-serif;
+-webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+}
+@-webkit-keyframes reveal {
+80% {
+letter-spacing: 8px;
+}
+100% {
+background-size: 300% 300%;
+}
+}
+@keyframes reveal {
+80% {
+letter-spacing: 8px;
+}
+100% {
+background-size: 300% 300%;
+}
+}
+@-webkit-keyframes glow {
+40% {
+text-shadow: 0 0 8px #fff;
+}
+}
+@keyframes glow {
+40% {
+text-shadow: 0 0 8px #fff;
+}
+}
+
+/* animation title 1 */
+.titlepg{
+animation: move 2s;
+-webkit-animation: move 2s;
+}
+
+@keyframes move {
+from {
+margin-left: 100%;
+width: 300%; 
+}
+
+to {
+margin-left: 0%;
+width: 100%;
+}
+}
+
+@-webkit-keyframes move {
+from {
+margin-left: 100%;
+width: 300%; 
+}
+
+to {
+margin-left: 0%;
+width: 100%;
+}
+}
+
+/* title animation 2*/
+.wordCarousel {
+font-size: 36px;
+font-weight: 100;
+color: #eee;
+}
+.wordCarousel div {
+overflow: hidden;
+position: relative;
+float: right;
+height: 65px;
+padding-top: 10px;
+margin-top: -10px;
+}
+.wordCarousel div li {
+font-family: Serif;
+color: #eee;
+font-weight: 700;
+padding: 0 10px;
+margin-right: 160px;
+height: 45px;
+margin-bottom: 45px;
+display: block;
+}
+
+.flip2 {
+-webkit-animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+.flip3 {
+-webkit-animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+.flip4 {
+-webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+@-webkit-keyframes flip2 {0% {margin-top: -180px;}5% { margin-top: -90px;}50% {margin-top: -90px;}55% {margin-top: 0px;}99.99% {margin-top: 0px;}100% {margin-top: -270px;}}
+@keyframes flip2 {0% {margin-top: -180px;}5% {margin-top: -90px;}50% {margin-top: -90px;}55% {margin-top: 0px;}99.99% {margin-top: 0px;}100% {margin-top: -270px;}}
+@-webkit-keyframes flip3 {0% {margin-top: -270px;}5%{margin-top: -180px;}33%{margin-top: -180px;}38% {margin-top: -90px;}66% {margin-top: -90px;}71% {margin-top: 0px;}99.99% {margin-top: 0px;}100% {margin-top: -270px;}}
+@keyframes flip3 {0% {margin-top: -270px;}5% {margin-top: -180px;}33% {margin-top: -180px;}38% {margin-top: -90px;}66% {margin-top: -90px;}71% {margin-top: 0px;}99.99% {margin-top: 0px;}100% {margin-top: -270px;}}
+@-webkit-keyframes flip4 {0% {margin-top: -360px;}5% {margin-top: -270px;}25% {margin-top: -270px;}30% {margin-top: -180px;}50% {margin-top: -180px;}55% {margin-top: -90px;}75% {margin-top: -90px;}80% {margin-top: 0px;}99.99% {margin-top: 0px;}100% {margin-top: -270px;}}
+@keyframes flip4 {0% {margin-top: -360px;}5% {margin-top: -270px;}25% {margin-top: -270px;}30% {margin-top: -180px;}50% {margin-top: -180px;}55% {margin-top: -90px;}75% {margin-top: -90px;}80% {margin-top: 0px;}99.99% {margin-top: 0px;}100% {margin-top: -270px;}}
+
+
